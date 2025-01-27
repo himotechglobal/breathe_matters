@@ -2,10 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./footer.module.css";
 import footerLogo from "../../assets/footer-logo.png";
-import facebook from "../../assets/facebook.png";
 import instagram from "../../assets/instagram.png";
-import discord from "../../assets/discord.png";
-import twitter from "../../assets/twitter.png";
 
 const contactDetails = [
   { label: "Phone" },
@@ -13,12 +10,7 @@ const contactDetails = [
   { label: "Location" },
 ];
 
-const socialMedia = [
-  { name: "Facebook", icon: facebook },
-  { name: "Twitter", icon: twitter },
-  { name: "Instagram", icon: instagram },
-  { name: "Discord", icon: discord },
-];
+const socialMedia = [{ name: "Instagram", icon: instagram }];
 
 const Footer = () => {
   return (
@@ -46,7 +38,9 @@ const Footer = () => {
 
           <div className={styles["footer-social"]}>
             <h3 className={styles["footer-heading"]}>Stay in touch</h3>
-            <div className={styles["footer-social-icons"]}>
+            <div
+              className={(styles["footer-social-icons"], "flex items-center ")}
+            >
               {socialMedia.map((social, index) => (
                 <Image key={index} src={social.icon} alt={social.name} />
               ))}
@@ -56,7 +50,7 @@ const Footer = () => {
       </footer>
 
       <div className={styles["footer-copyright"]}>
-        © 2024 BreatheMatters. All rights reserved.
+        © 2025 BreatheMatters. All rights reserved.
       </div>
     </div>
   );

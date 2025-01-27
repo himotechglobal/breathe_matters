@@ -73,7 +73,7 @@ const FAQ = () => {
                   questionIndex === index ? "max-h-[500px]" : "max-h-0"
                 }`}
               >
-                <p className="text-[16px] text-[#3C3C3C] px-3 py-5">
+                <p className="text-[16px] text-[#3C3C3C] px-3 py-5 font-nunito font-[400]">
                   {obj?.answer}
                 </p>
               </div>

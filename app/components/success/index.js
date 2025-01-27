@@ -36,7 +36,7 @@ const Success = () => {
               key={index}
               className="flex flex-col bg-[#fff] border border-[#008080] rounded-[10px] gap-4 overflow-hidden"
             >
-              <p className="text-[#008080]  bg-[#E6F2F2] rounded-b-[16px] p-5 shadow-[0px_10px_10px_-2px_rgba(0,0,0,0.2)]">
+              <p className="text-[#008080] text-[16px] font-[800] font-nunito bg-[#E6F2F2] rounded-b-[16px] p-5 shadow-[0px_10px_10px_-2px_rgba(0,0,0,0.2)]">
                 {story?.quote}
               </p>
 

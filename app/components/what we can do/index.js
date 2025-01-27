@@ -2,7 +2,7 @@ import React from "react";
 import stress from "../../assets/EliminateStressandAnxiety.png";
 import mental from "../../assets/mentalstress.png";
 import achieve from "../../assets/AchievePeakPerformance.png";
-import physical from "../../assets/ImprovePhysicalHealth.png";
+import physical from "../../assets/ImprovePhysicalHealth.jpeg";
 import Image from "next/image";
 
 const WhatWeCanDo = () => {
