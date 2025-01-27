@@ -93,11 +93,11 @@ const Order = () => {
         >
           Take Control of Your Breath Today!
         </h2>
-        <div class="flex flex-col items-center  text-center gap-10">
-          <p class="font-nunito break-words text-white text-center">
+        <div className="flex flex-col items-center  text-center gap-10">
+          <p className="font-nunito break-words text-white text-center">
             Invest in the Science of Better Breathing
           </p>
-          <p class="font-nunito break-words text-white">
+          <p className="font-nunito break-words text-white">
             For a limited time, get your CapnoTrainer<sup>®</sup>GO at an
             exclusive launch price!
           </p>
