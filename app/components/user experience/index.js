@@ -1,7 +1,7 @@
 import React from "react";
-import feedback from "../../assets/feedback interface 1.png";
-import monitor from "../../assets/Monitor Your Progress 1.png";
-import waveform from "../../assets/real-time PCO2 waveform analysis 1.png";
+import feedback from "../../assets/feedbackinterface1.png";
+import monitor from "../../assets/MonitorYourProgress1.png";
+import waveform from "../../assets/real-timePCO2waveformanalysis1.png";
 import Group from "../../assets/Group-2.png";
 import Wrapper from "../wrapper";
 import Image from "next/image";

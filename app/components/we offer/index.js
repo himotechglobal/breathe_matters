@@ -1,10 +1,10 @@
 import React from "react";
+import wellness from "../../assets/WellnessEnthusiasts.png";
+import practitioners from "../../assets/HealthPractitioners.png";
+import athletes from "../../assets/Athletes&Performers.png";
+import healthcare from "../../assets/HealthcareProfessionals.png";
+import educators from "../../assets/Educators&Trainers.png";
 import OfferCard from "../offer card";
-import wellness from "../../assets/Wellness Enthusiasts.png";
-import practitioners from "../../assets/Health Practitioners.png";
-import athletes from "../../assets/Athletes & Performers.png";
-import healthcare from "../../assets/Healthcare Professionals.png";
-import educators from "../../assets/Educators & Trainers.png";
 
 const weOfferData = [
   {
@@ -20,7 +20,7 @@ const weOfferData = [
     img: practitioners,
   },
   {
-    title: "Athletes & Performers",
+    title: "Athletes&Performers",
     subtitle: "Boost endurance, focus, and physical resilience.",
     img: athletes,
   },

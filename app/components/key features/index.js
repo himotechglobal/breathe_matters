@@ -1,7 +1,7 @@
 import React from "react";
-import monitor from "../../assets/monitoring 1.png";
+import monitor from "../../assets/monitoring1.png";
 import breathwave from "../../assets/Breathwave.png";
-import strategies from "../../assets/Breath strategies.png";
+import strategies from "../../assets/Breathstrategies.png";
 import portable from "../../assets/Portable.png";
 import Image from "next/image";
 

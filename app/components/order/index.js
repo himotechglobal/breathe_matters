@@ -2,7 +2,7 @@ import React from "react";
 import vector2 from "../../assets/Vector2.png";
 import vector3 from "../../assets/Vector3.png";
 import vector4 from "../../assets/Vector4.png";
-import person1 from "../../assets/person 1.png";
+import person1 from "../../assets/person1.png";
 import semiCircle from "../../assets/semiCircle.png";
 import rectangleLeft from "../../assets/Rectangle-left.png";
 import Image from "next/image";

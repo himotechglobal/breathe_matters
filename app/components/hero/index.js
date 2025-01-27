@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../header.js";
 import Wrapper from "../wrapper/index.js";
-import fegrtg1 from "../../assets/fegrtg 1.png";
+import fegrtg1 from "../../assets/fegrtg1.png";
 import heroelipse2 from "../../assets/hero-elipse-2.png";
 import Image from "next/image.js";
 

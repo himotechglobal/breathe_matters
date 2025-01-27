@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import womanyoga from "../../assets/woman yoga with capno 1.png";
-import headache from "../../assets/headache 1.png";
-import lowbattery from "../../assets/low-battery 1.png";
-import musclePain from "../../assets/muscle-pain 1.png";
+import womanyoga from "../../assets/womanyogawithcapno1.png";
+import headache from "../../assets/headache1.png";
+import lowbattery from "../../assets/low-battery1.png";
+import musclePain from "../../assets/muscle-pain1.png";
 
 const points = [
   {

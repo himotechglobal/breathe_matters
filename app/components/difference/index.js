@@ -1,5 +1,5 @@
 import React from "react";
-import gym from "../../assets/capno with gym 1.png";
+import gym from "../../assets/capnowithgym1.png";
 import group2 from "../../assets/Group-2.png";
 import group from "../../assets/Group.png";
 import Image from "next/image";

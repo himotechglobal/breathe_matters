@@ -1,8 +1,8 @@
 import React from "react";
 import knosis from "../../assets/KNOSIS.png";
-import cruz from "../../assets/Dr Cruz.png";
-import airway from "../../assets/Airway 1.png";
-import conspire from "../../assets/conspire logo.png";
+import cruz from "../../assets/DrCruz.png";
+import airway from "../../assets/Airway1.png";
+import conspire from "../../assets/conspirelogo.png";
 import Image from "next/image";
 
 const Collaborators = () => {
@@ -20,7 +20,7 @@ export default Collaborators;
 // import React from "react";
 // import knosis from "../../assets/KNOSIS.png";
 // import cruz from "../../assets/Dr Cruz.png";
-// import airway from "../../assets/Airway 1.png";
+// import airway from "../../assets/Airway1.png";
 // import conspire from "../../assets/conspire logo.png";
 // import Image from "next/image";
 

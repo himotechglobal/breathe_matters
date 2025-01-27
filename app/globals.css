@@ -92,13 +92,12 @@ body {
 }
 
 .frameParent {
-  background: url("./assets/Breathepatterns1.png") no-repeat right;
+  background: url("./assets/Breathepattern1.png") no-repeat right;
 }
 
 @media (max-width: 1100px) {
   .frameParentBottom {
-    background: url("./assets/Breathepatterns1.png") no-repeat right;
-    background-size: cover;
+    background: url("./assets/Breathepattern1.png") no-repeat right;
   }
 }
 
