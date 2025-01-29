@@ -31,7 +31,7 @@ const HowWeWork = () => {
               <h2 className="howTheCapnotrainer lg:text-start text-center">
                 How the CapnoTrainer<sup>®</sup> GO Works
               </h2>
-              <div className="flex gap-3 pt-6 max-md:flex-col max-md:items-center max-md:justify-center">
+              <div className="howwework flex gap-3 pt-6 max-md:flex-col max-md:items-center max-md:justify-center">
                 <div className="flex flex-col gap-3">
                   <div className={`section bg-[#008080]`}>
                     <b className="text-white text-[20px] font-bold font-nunito">
@@ -42,7 +42,7 @@ const HowWeWork = () => {
                     </div>
                   </div>
                   <div className={`section bg-[#008080]`}>
-                    <b className="text-white text-[20px] font-bold font-nunito">
+                    <b className="text-white text-[20px] font-bold font-nunito ">
                       {cards[1].title}
                     </b>
                     <div className="text-white text-[16px] font-normal font-nunito">

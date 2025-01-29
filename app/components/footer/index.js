@@ -3,15 +3,16 @@ import Image from "next/image";
 import styles from "./footer.module.css";
 import footerLogo from "../../assets/footer-logo.png";
 import instagram from "../../assets/instagram.png";
-
+import facebook from "../../assets/facebook.png"
+import twitter from "../../assets/twitter.png"
+import discord from "../../assets/discord.png"
 const contactDetails = [
   { label: "Phone" },
   { label: "Email" },
   { label: "Location" },
 ];
 
-const socialMedia = [{ name: "Instagram", icon: instagram }];
-
+const socialMedia = [{ name: "Instagram", icon: instagram },{ name: "Facebook", icon: facebook }, { name: "Twitter", icon: twitter },{ name: "Discord", icon: discord }];
 const Footer = () => {
   return (
     <div className="max-w-[1248px] mx-auto">
@@ -39,7 +40,7 @@ const Footer = () => {
           <div className={styles["footer-social"]}>
             <h3 className={styles["footer-heading"]}>Stay in touch</h3>
             <div
-              className={(styles["footer-social-icons"], "flex items-center ")}
+              className= {(styles["footer-social-icons"], " flex flex-wrap items-center gap-4 ")}
             >
               {socialMedia.map((social, index) => (
                 <Image key={index} src={social.icon} alt={social.name} />

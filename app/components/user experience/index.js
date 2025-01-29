@@ -32,11 +32,11 @@ const UserExp = () => {
     <div className="bg-[#E6F2F2] md:mt-32 mt-10 flex flex-col items-center max-w-[1440px] mx-auto">
       <Wrapper>
         <div className="flex flex-col items-center">
-          <div className="md:py-20 py-10 font-spectral flex flex-col items-start ">
-            <p className="text-[16.331px] max-lg:text-center text-left font-bold font-spectral leading-normal tracking-wider uppercase">
+          <div className="exp-content md:py-20 py-10 font-spectral flex flex-col items-start ">
+            <p className="text-[16.331px] max-lg:text-center text-left font-bold font-spectral  leading-normal tracking-wider uppercase">
               Experience the
             </p>
-            <h2 className="max-md:text-[30px] text-[40px] text-[#008080] max-md:text-center font-spectral font-bold leading-[25px] uppercase">
+            <h2 className=" max-md:text-[30px] text-[40px] text-[#008080] max-md:text-center font-spectral font-bold leading-[25px] uppercase">
               Power of CapnoTrainer<sup>®</sup> GO
             </h2>
           </div>

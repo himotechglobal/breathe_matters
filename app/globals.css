@@ -83,6 +83,11 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+.exp-content{
+  font-family: var(--font-spectral-sc);
+}
+
+
 @media (max-width: 1342px) {
   .highlight_para {
     font-size: 14px;
@@ -110,12 +115,12 @@ body {
 
 .frameParent {
   background: url("./assets/Breathepattern1.png") no-repeat right;
+ background-attachment: fixed;
 }
 
 @media (max-width: 1024px) {
   .frameParent {
     background-size: cover;
-    
   }
 }
 
@@ -197,4 +202,11 @@ body {
   text-decoration-thickness: 3.68px;
   text-underline-offset: 8.463px;
   text-underline-position: from-font;
+}
+@media (max-width: 375px) {
+  .section {
+    display: flex;
+    width: 300px;
+  }
+  
 }
