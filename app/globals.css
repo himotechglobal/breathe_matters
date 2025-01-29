@@ -22,7 +22,12 @@ body {
   margin: 0;
   line-height: normal;
 }
-
+.hero-upper{
+  max-width: 100% !important;
+}
+.hero-content-h1{
+  font-family: var(--font-spectral-sc) !important;
+}
 .hero_bottom {
   position: absolute;
   bottom: 0;
@@ -44,6 +49,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+.zero-content-h2{
+  font-family: var(--font-spectral-sc);
 }
 
 .capno_para {

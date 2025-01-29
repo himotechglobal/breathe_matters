@@ -7,12 +7,12 @@ import Image from "next/image.js";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-b from-[#6BB5B5] to-[#008080]  max-w-[1440px] mx-auto relative lg:pb-56 flex flex-col md:gap-20">
+    <div className=" hero-upper bg-gradient-to-b from-[#6BB5B5] to-[#008080]  max-w-[1440px] mx-auto relative lg:pb-56 flex flex-col md:gap-20">
       <Wrapper hero={true}>
         <Header />
         <div className="max-lg:flex max-lg:flex-col max-lg:items-end">
           <div className="mt-7 relative flex flex-col lg:gap-12 gap-5">
-            <h1 className="text-white font-spectral uppercase md:text-[32px] max-md:text-[30px] text-[40px] font-bold md:leading-normal leading-8 tracking-widest ">
+            <h1 className=" hero-content-h1 text-white font-spectral uppercase md:text-[32px] max-md:text-[30px] text-[40px] font-bold md:leading-normal leading-8 tracking-widest ">
               <span>
                 <span className="max-md:text-[30px] text-[40px]">T</span>
                 ransform{" "}
@@ -24,7 +24,7 @@ const Hero = () => {
                 <span className="max-md:text-[30px] text-[40px]">R</span>
                 evolutionary{" "}
                 <span className="max-md:text-[30px] text-[40px]">C</span>
-                apnoTrainer<sup>®</sup> GO
+                apnoTrainer<sup>®</sup>GO
               </span>
               <span className="ml-2 inline-flex">
                 <svg

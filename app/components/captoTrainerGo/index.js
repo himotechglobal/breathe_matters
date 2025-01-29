@@ -18,7 +18,7 @@ const CapnoTrainer = () => {
         <div className="w-full justify-center flex max-xl:flex-col items-center max-md:my-10">
           <div className="xl:w-[42%] w-full">
             <div className="flex flex-col items-start text-[#008080] text-center sm:text-left">
-              <h2 className="max-md:text-[30px] text-[40px] whitespace-nowrap font-bold flex items-center font-spectral justify-between md:gap-5">
+              <h2 className="zero-content-h2 max-md:text-[30px] text-[40px] whitespace-nowrap font-bold flex items-center font-spectral justify-between md:gap-5">
                 <span>
                   <span className="text-[45px]">W</span>HAT{" "}
                   <span className="text-[45px]">I</span>S THE
