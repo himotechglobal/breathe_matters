@@ -1,8 +1,8 @@
 import React from "react";
-import stress from "../../assets/EliminateStressandAnxiety.png";
-import mental from "../../assets/mentalstress.png";
-import achieve from "../../assets/AchievePeakPerformance.png";
-import physical from "../../assets/ImprovePhysicalHealth.jpeg";
+import stress from "../../assets/Eliminatestress.png";
+import mental from "../../assets/Enhance Mental stress.png";
+import achieve from "../../assets/AchievePeakPerformance1.png";
+import physical from "../../assets/improve.png";
 import Image from "next/image";
 
 const WhatWeCanDo = () => {
@@ -21,7 +21,7 @@ const WhatWeCanDo = () => {
     },
     {
       img: achieve,
-      title: "AchievePeakPerformance",
+      title: "Achieve Peak Performance",
       subtitle:
         "Whether you’re giving a presentation, running a marathon, or meditating, experience the benefits of a well-aligned breath.",
     },

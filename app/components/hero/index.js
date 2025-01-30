@@ -59,7 +59,7 @@ const Hero = () => {
               <span className="text-white font-nunito md:text-[36px] text-[26px] leading-none font-[600]">
                 Breathe Smarter, Live Better
               </span>
-              <p className="text-white font-nunito md:text-[16px] text-[12px] xl:w-[60%] pr-4 leading-normal font-[400] opacity-80 my-3">
+              <p className="text-white font-nunito md:text-[16px] text-[12px] xl:w-[60%] pr-4 leading-normal font-[400] opacity-100 my-3">
                 Breathing is more than just an unconscious action—it’s a
                 foundation of health, performance, <br /> and emotional
                 well-being. But what if your breathing habits are silently

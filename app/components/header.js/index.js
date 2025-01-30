@@ -22,7 +22,7 @@ const Header = () => {
         />
       </div>
       <span className="flex items-center justify-center">
-        <button className="text-white font-lucida bg-[#008080] py-3 px-[19px] rounded-[8px] relative z-10">
+        <button className=" book-btn text-white font-lucida bg-[#008080] py-3 px-[19px] rounded-[8px] relative z-10 ">
           Book Now
         </button>
       </span>

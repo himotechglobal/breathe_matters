@@ -28,7 +28,7 @@ const points = [
 const HiddenPower = () => {
   return (
     <div className="md:my-32 my-10 max-w-[1148px] mx-auto">
-      <h2 className="text-center max-md:text-[26px] tracking-wider font-spectralSC diffTheCapnotrainer">
+      <h2 className="hidder-power text-center max-md:text-[26px] tracking-wider font-spectralSC diffTheCapnotrainer">
         Discover the Hidden Power of Your Breath
       </h2>
       <div className="bg-[#E6F2F2] flex mt-5 max-lg:flex-col">

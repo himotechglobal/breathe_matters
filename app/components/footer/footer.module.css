@@ -6,6 +6,9 @@
   align-items: center;
   gap: 30px;
 }
+.footer p{
+  color: #101010 60%;
+}
 
 @media (max-width: 768px) {
   .footer {

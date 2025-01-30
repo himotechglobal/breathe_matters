@@ -17,7 +17,10 @@ body {
   font-family: "Lucida Bright", serif;
   font-weight: 600;
 }
-
+.book-btn{
+  font-size: 16px !important;
+  width: 121px;
+}
 body {
   margin: 0;
   line-height: normal;
@@ -27,7 +30,9 @@ body {
 }
 .hero-content-h1{
   font-family: var(--font-spectral-sc) !important;
+  letter-spacing: 1px !important;
 }
+
 .hero_bottom {
   position: absolute;
   bottom: 0;
@@ -44,6 +49,7 @@ body {
   font-weight: 700;
   line-height: normal;
 }
+
 .captotrainer {
   background: url("./assets/Capno.png");
   background-repeat: no-repeat;
@@ -86,7 +92,9 @@ body {
 .exp-content{
   font-family: var(--font-spectral-sc);
 }
-
+.takeControl {
+  letter-spacing: 0px;
+}
 
 @media (max-width: 1342px) {
   .highlight_para {
@@ -115,7 +123,6 @@ body {
 
 .frameParent {
   background: url("./assets/Breathepattern1.png") no-repeat right;
- background-attachment: fixed;
 }
 
 @media (max-width: 1024px) {
@@ -165,6 +172,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  letter-spacing: 0px;
 }
 @media (max-width: 1280px) {
   .diffTheCapnotrainer {
