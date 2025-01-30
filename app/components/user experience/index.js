@@ -47,7 +47,7 @@ const UserExp = () => {
                 className="card rounded-xl w-[329px] h-[329px]"
               >
                 <Image src={card.imageSrc} alt={card.title} />
-                <div className="px-5 py-2">
+                <div className=" px-5 py-4 ">
                   <h3 className="font-nunito text-[20px] font-bold text-[#008080]">
                     {card.title}
                   </h3>

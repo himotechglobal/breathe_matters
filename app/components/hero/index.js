@@ -22,7 +22,7 @@ const Hero = () => {
                 <span className="max-md:text-[30px] text-[40px]">L</span>ife
                 with the{" "}
                 <span className="max-md:text-[30px] text-[40px]">R</span>
-                evolutionary{" "}
+                evolutionary{" "} <br />
                 <span className="max-md:text-[30px] text-[40px]">C</span>
                 apnoTrainer<sup>®</sup>GO
               </span>

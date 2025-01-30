@@ -95,7 +95,10 @@ body {
 .takeControl {
   letter-spacing: 0px;
 }
-
+.left-24 {
+  left: 6rem;
+  width: 426px;
+}
 @media (max-width: 1342px) {
   .highlight_para {
     font-size: 14px;

@@ -35,9 +35,8 @@ const Footer = () => {
             {contactDetails.map((detail, index) => (
               <p key={index}>{detail.label}</p>
             ))}
-          </div>
-
-          <div className={styles["footer-social"]}>
+          </div>  
+          <div className={(styles["footer-social "],"flex flex-col items-end")}>
             <h3 className={styles["footer-heading"]}>Stay in touch</h3>
             <div
               className= {(styles["footer-social-icons"], " flex flex-wrap items-center gap-4 ")}
@@ -47,6 +46,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
+
         </div>
       </footer>
 
