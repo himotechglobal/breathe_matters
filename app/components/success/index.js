@@ -25,7 +25,7 @@ const Success = () => {
     <div className="real-success relative max-w-[1440px] mx-auto">
       <div className="bg-[#008080] absolute w-full h-[92px] translate-y-[50%] lg:top-24 top-72"></div>
 
-      <div className="bg-[#E6F2F2] lg:px-[123px] px-5 py-10">
+      <div className=" container bg-[#E6F2F2] lg:px-[123px] px-5 py-10">
         <h2 className="text-center max-md:text-[26px] mb-10 tracking-wider diffTheCapnotrainer">
           Real Success Stories
         </h2>

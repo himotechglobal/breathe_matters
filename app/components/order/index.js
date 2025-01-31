@@ -38,7 +38,7 @@ const Order = () => {
         />
         <div className="md:w-[30%] rectangle_left relative bg-red-400"></div>
         <div
-          className="md:w-[75%] rectangle_right bg-cover bg-center bg-no-repeat flex flex-col gap-20"
+          className="md:w-[1117.5px] rectangle_right bg-cover bg-center bg-no-repeat flex flex-col gap-20"
           style={{
             alignItems: "end",
             paddingRight: "80px",
