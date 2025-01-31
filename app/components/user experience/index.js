@@ -31,7 +31,7 @@ const UserExp = () => {
   return (
     <div className="bg-[#E6F2F2] md:mt-32 mt-10 flex flex-col items-center max-w-[1440px] mx-auto">
       <Wrapper>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center ">
           <div className="exp-content md:py-20 py-10 font-spectral flex flex-col items-start ">
             <p className="text-[16.331px] max-lg:text-center text-left font-bold font-spectral  leading-normal tracking-wider uppercase">
               Experience the
@@ -40,15 +40,15 @@ const UserExp = () => {
               Power of CapnoTrainer<sup>®</sup> GO
             </h2>
           </div>
-          <div className="flex max-lg:flex-col items-center justify-between gap-10">
+          <div className="flex max-lg:flex-col items-center justify-between gap-10 ">
             {cards?.map((card, index) => (
               <div
                 key={index + 1}
-                className="card rounded-xl w-[329px] h-[329px]"
+                className="card rounded-xl w-[329px] h-[340px]"
               >
                 <Image src={card.imageSrc} alt={card.title} />
-                <div className=" px-5 py-4 ">
-                  <h3 className="font-nunito text-[20px] font-bold text-[#008080]">
+                <div className="px-5 py-4 ">
+                  <h3 className="font-nunito text-[20px] font-bold text-[#008080]  ">
                     {card.title}
                   </h3>
                   <p className="font-nunito text-[14px] font-normal leading-normal">
@@ -59,7 +59,7 @@ const UserExp = () => {
             ))}
           </div>
         </div>
-        <Image src={Group} alt="...group" className="my-10" />
+        <Image src={Group} alt="...group" className="my-10 " />
       </Wrapper>
     </div>
   );

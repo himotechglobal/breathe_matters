@@ -45,7 +45,7 @@ const WhatWeCanDo = () => {
               alt={`...${obj.name}`}
               className="img w-full object-contain rounded-t-xl"
             />
-            <div className="p-5 bg-[#008080] rounded-md  flex-1 flex flex-col justify-between">
+            <div className="p-5 bg-[#008080] rounded-l  flex-1 flex flex-col justify-between">
               <h3 className="text-white font-nunito text-[20px] font-bold leading-normal">
                 {obj?.title}
               </h3>
