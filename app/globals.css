@@ -32,6 +32,18 @@ body {
   font-family: var(--font-spectral-sc) !important;
   letter-spacing: 1px !important;
 }
+.howwework{
+  max-width: 100%;
+}
+.user-exp{
+  max-width: 100%;
+}
+.real-success{
+  max-width: 100%;
+}
+.take-control{
+  max-width: 100%;
+}
 
 .hero_bottom {
   position: absolute;

@@ -29,7 +29,7 @@ const UserExp = () => {
   ];
 
   return (
-    <div className="bg-[#E6F2F2] md:mt-32 mt-10 flex flex-col items-center max-w-[1440px] mx-auto">
+    <div className=" user-exp bg-[#E6F2F2] md:mt-32 mt-10 flex flex-col items-center max-w-[1440px] mx-auto">
       <Wrapper>
         <div className="flex flex-col items-center ">
           <div className="exp-content md:py-20 py-10 font-spectral flex flex-col items-start ">

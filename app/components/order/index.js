@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const Order = () => {
   return (
-    <div className="container mx-auto max-w-[1440px]">
+    <div className=" take-control container mx-auto max-w-[1440px]">
       <div className="flex items-center justify-between relative max-lg:hidden">
         <Image
           src={person1}
