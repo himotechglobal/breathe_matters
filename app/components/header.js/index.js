@@ -5,7 +5,7 @@ import heroElipse from "../../assets/hero-elipse.png";
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-end w-full py-4">
+    <header className=" flex justify-between items-end w-full py-4">
       <Image
         src={heroElipse}
         alt="...heroelipse"

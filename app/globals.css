@@ -25,6 +25,7 @@ body {
   margin: 0;
   line-height: normal;
 }
+
 .hero-upper{
   max-width: 100% !important;
 }
@@ -34,7 +35,9 @@ body {
 }
 .howwework{
   max-width: 100%;
+  background-color: #E6F2F2!important;
 }
+
 .user-exp{
   max-width: 100%;
 }
@@ -119,15 +122,23 @@ body {
 
   background-repeat: no-repeat !important;
 }
-.howwework .container{
+/* .howwework .container{
   width: 100%;
   height: 100%;
-}
+} */
 
+.frame{
+  padding-left: 80px !important;
+}
+.amanda-container{
+  width: 1250px;
+  margin: 0px auto;
+}
 @media (max-width: 1342px) {
   .highlight_para {
     font-size: 14px;
   }
+  
 }
 
 .card {
@@ -158,6 +169,7 @@ body {
   .frameParent {
     background-size: cover;
   }
+  
 }
 
 .section {

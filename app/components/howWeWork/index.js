@@ -24,10 +24,11 @@ const HowWeWork = () => {
 
   return (
     <>
-      <div className="howwework max-lg:frameParentBottom max-w-[1440px] mx-auto border ">
+     <div className="howwework">
+     <div className=" max-lg:frameParentBottom max-w-[1440px] mx-auto border ">
         <div className="from-[#E6F2F2] via-[#E6F2F2] to-transparent opacity-100 md:bg-gradient-to-r md:from-[#E6F2F2] md:via-[#E6F2F2] md:to-transparent">
           <div className="frameParent max-lg:py-10">
-            <div className="lg:w-2/4 lg:p-12 px-5">
+            <div className="lg:w-2/4 lg:p-12 px-5 ml-[35px]">
               <h2 className="howTheCapnotrainer lg:text-start text-center">
                 How the CapnoTrainer<sup>®</sup> GO Works
               </h2>
@@ -75,6 +76,7 @@ const HowWeWork = () => {
           </div>
         </div>
       </div>
+     </div>
     </>
   );
 };
