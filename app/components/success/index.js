@@ -22,7 +22,7 @@ const Success = () => {
   ];
 
   return (
-    <div className="real-success relative max-w-[1440px] mx-auto">
+    <div className="real-success relative max-w-[1440px] mx-auto container">
       <div className="bg-[#008080] absolute w-full h-[92px] translate-y-[50%] lg:top-24 top-72"></div>
 
       <div className=" bg-[#E6F2F2] lg:px-[123px] px-5 py-10">
