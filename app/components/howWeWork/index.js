@@ -27,7 +27,7 @@ const HowWeWork = () => {
      <div className="frameParent howwework max-lg:frameParentBottom max-w-[1440px] mx-auto border ">
         <div className="from-[#E6F2F2] via-[#E6F2F2] to-transparent opacity-100 md:bg-gradient-to-r md:from-[#E6F2F2] md:via-[#E6F2F2] md:to-transparent">
           <div className="container mx-auto max-lg:py-10 2xl:px-20">
-            <div className="  lg:w-2/4 lg:p-12 px-5">
+            <div className=" trainer lg:w-2/4 lg:p-12 px-5">
               <h2 className="howTheCapnotrainer lg:text-start text-center">
                 How the CapnoTrainer<sup>®</sup> GO Works
               </h2>

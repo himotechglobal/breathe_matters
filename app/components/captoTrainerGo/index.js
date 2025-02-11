@@ -17,7 +17,7 @@ const CapnoTrainer = () => {
       <div className="w-full relative lg:px-12 ">
         <div className="w-full justify-center flex max-xl:flex-col items-center max-md:my-10">
           <div className="xl:w-[42%] w-full">
-            <div className="flex flex-col items-start text-[#008080] text-center sm:text-left">
+            <div className="zero-content flex flex-col items-start text-[#008080] text-center sm:text-left">
               <h2 className="zero-content-h2 max-md:text-[30px] text-[40px] whitespace-nowrap font-bold flex items-center font-spectral justify-between md:gap-5">
                 <span>
                   <span className="text-[45px]">W</span>HAT{" "}
@@ -25,13 +25,13 @@ const CapnoTrainer = () => {
                 </span>
                 <Image src={group3} alt="...group" />
               </h2>
-              <h2 className="text-[50px] max-md:text-[30px] font-bold font-spectral whitespace-nowrap">
+              <h2 className="text-[50px] max-md:text-[30px] font-bold font-spectral whitespace-wrap">
                 <span className="text-[55px]">C</span>APNO
                 <span className="text-[55px]">T</span>RAINER<sup>®</sup> GO?
               </h2>
             </div>
 
-            <p className="md:w-[99%] text-[#3C3C3C] text-[15px] max-lg:text-[16px] text-center font-nunito leading-normal font-normal sm:text-left my-5">
+            <p className="zero-para md:w-[99%] text-[#3C3C3C] text-[15px] max-lg:text-[16px] text-center font-nunito leading-normal font-normal sm:text-left my-5">
               The CapnoTrainer
               <sup>®</sup>
               GO isn’t just a tool—it’s your personal gateway to a healthier,

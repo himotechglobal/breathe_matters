@@ -11,7 +11,7 @@ const Header = () => {
         alt="...heroelipse"
         className="absolute top-0 right-0"
       />
-      <div className="relative">
+      <div className="company-logo relative">
         <Image
           src={Logo}
           alt="brathe Matter Logo"

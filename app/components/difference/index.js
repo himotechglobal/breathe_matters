@@ -44,7 +44,7 @@ const Differece = () => {
           }}
         >
           <p
-            className="text-[23px] p-5 max-lg:text-center shadow-xl bg-white rounded-[10px] text-[#008080] font-nunito"
+            className="beaviour text-[23px] p-5 max-lg:text-center shadow-xl bg-white rounded-[10px] text-[#008080] font-nunito"
             style={{
               fontWeight: 800,
             }}

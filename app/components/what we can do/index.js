@@ -37,7 +37,7 @@ const WhatWeCanDo = () => {
       <h2 className="text-center max-md:text-[26px] diffTheCapnotrainer tracking-wider">
         What Can the CapnoTrainer<sup>®</sup>GO Do for You?
       </h2>
-      <div className=" grid grid-cols-4 gap-x-6 place-items-center gap-y-10 w-full py-10 max-xl:grid-cols-2 max-sm:grid-cols-1 ">
+      <div className=" what-capno grid grid-cols-4 gap-x-6 place-items-center gap-y-10 w-full py-10 max-xl:grid-cols-2 max-sm:grid-cols-1 ">
         {cardsData?.map((obj, index) => (
           <div key={index} className="w-full  h-full flex flex-col ">
             <Image 

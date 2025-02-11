@@ -55,7 +55,7 @@ const Hero = () => {
                 </svg>
               </span>
             </h1>
-            <div className="">
+            <div className="breathe-h2">
               <span className="text-white font-nunito md:text-[36px] text-[26px] leading-none font-[600]">
                 Breathe Smarter, Live Better
               </span>

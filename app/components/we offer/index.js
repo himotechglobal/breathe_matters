@@ -58,7 +58,7 @@ const WeOffer = () => {
         ))}
       </div>
 
-      <div className="flex gap-6 max-md:flex-col max-md:items-center max-md:w-full mt-6">
+      <div className=" who-capno flex gap-6 max-md:flex-col max-md:items-center max-md:w-full mt-6">
         {weOfferData.slice(3).map((obj, index) => (
           <div key={index} className="w-1/2 max-md:w-full">
             <OfferCard
